@@ -1,13 +1,13 @@
 #! /usr/bin/env node
 
-let disp=require("./display");
-let add_number=require("./add_no_to_all_lines");
-let add=require("./add_number_to_non_empty_lines");
-let remo=require("./remove_spaces");
-let copy=require("./copy_content_from_file1_to_file2")
-let append=require("./append_content_from_file1_to_file2");
-let remove_and_copy=require("./remove_large_spaces_and_save_in_file2");
-let help=require("./help");
+let disp=require("./commands/display");
+let add_number=require("./commands/add_no_to_all_lines");
+let add=require("./commands/add_number_to_non_empty_lines");
+let remo=require("./commands/remove_spaces");
+let copy=require("./commands/copy_content_from_file1_to_file2")
+let append=require("./commands/append_content_from_file1_to_file2");
+let remove_and_copy=require("./commands/remove_large_spaces_and_save_in_file2");
+let help=require("./commands/help");
 let input=process.argv.slice(2);
 let inp=input[0];
 
